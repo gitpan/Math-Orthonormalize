@@ -1,0 +1,10 @@
+--- #YAML:1.0
+name: Math-Orthonormalize
+version: 0.10
+abstract: Gram-Schmidt Orthonormalization of vectors
+license: perl
+distribution_type: module
+requires:
+  Test::More: 0.44
+dynamic_config: 0
+

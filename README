@@ -1,0 +1,34 @@
+Math::Orthonormalize version 0.10
+=================================
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Test::More (Version 0.44 or higher)
+
+SEE ALSO
+
+Current versions of this module may be found on http://steffen-mueller.net or
+CPAN.
+
+Please send your suggestions, inquiries, and feedback to
+orthonormalize-module at steffen-mueller dot net
+
+COPYRIGHT AND LICENCE
+
+Copyright (c) 2004 Steffen Mueller
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
