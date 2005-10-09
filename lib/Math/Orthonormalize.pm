@@ -47,7 +47,7 @@ use warnings;
 use Math::Symbolic qw/parse_from_string/;
 use Carp;
 
-our $VERSION = '0.10';
+our $VERSION = '1.00';
 
 require Exporter;
 our @ISA = qw(Exporter);
@@ -200,17 +200,23 @@ sub scalar_product {
 1;
 __END__
 
-=back
-
 =head1 AUTHOR
 
-Steffen Mueller, E<lt>orthonormalize-module at steffen-mueller dot net<gt>
+Steffen Mueller, orthonormalize-module at steffen-mueller dot net
 
 =head1 SEE ALSO
 
-Merziger, Wirth: "Repetitorium der Höheren Mathematik" (Binomi, 1999)
+(German) Merziger, Wirth: "Repetitorium der Höheren Mathematik" (Binomi, 1999)
 
 You may find the current versions of this module at http://steffen-mueller.net/
 or on CPAN.
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2004-2005 by Steffen Mueller
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.6.1 or,
+at your option, any later version of Perl 5 you may have available.
 
 =cut
